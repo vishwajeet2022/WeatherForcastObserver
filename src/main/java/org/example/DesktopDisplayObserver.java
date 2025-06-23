@@ -19,6 +19,7 @@ public class DesktopDisplayObserver implements Observer{
         display();
     }
     public void display(){
-        System.out.println("Temperature "+temperature+"Humidity "+humidity+"Pressure "+pressure);
+        System.out.println("For desktop:"+"\nTemperature "+temperature+"\nHumidity "+humidity+"\nPressure "+pressure);
+        System.out.println();
     }
 }
